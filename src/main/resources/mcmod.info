@@ -1,0 +1,16 @@
+[
+{
+  "modid": "zephirmc",
+  "name": "ZephirMC",
+  "description": "Mod officiel de ZephirMC.",
+  "version": "${version}",
+  "mcversion": "${mcversion}",
+  "url": "",
+  "updateUrl": "",
+  "authorList": ["theotintin"],
+  "credits": "The Forge and FML guys.",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]

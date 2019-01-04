@@ -1,0 +1,11 @@
+package com.codemajorgeek.zephirmc.blocks;
+
+import net.minecraft.block.material.*;
+
+public class UnbreakableObsidian {
+	
+	public UnbreakableObsidian(Material materialIn) {
+		
+		super(materialIn);
+	}
+}

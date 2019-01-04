@@ -1,0 +1,20 @@
+package com.codemajorgeek.zephirmc.proxy;
+
+import net.minecraft.block.*;
+import net.minecraft.item.*;
+
+public class CommonProxy {
+	
+	public void registerRender() {
+		
+		//server side
+	}
+	
+	  protected void registerItemTexture(Item item, int metadata, String name){ }
+	  
+	  protected void registerItemTexture(Item item, String name){ }
+	 
+	  protected void registerBlockTexture(Block block, int metadata, String name){ }
+	 
+	  protected void registerBlockTexture(Block block, String name){ }
+}

@@ -1,0 +1,29 @@
+package com.codemajorgeek.zephirmc.proxy;
+
+public class ClientProxy extends CommonProxy{
+	
+	@Override
+	public void registerRender() {
+		
+		//client side
+	}
+	
+	 @Override
+	 public void registerItemTexture(Item item, int metadata, String name) {
+		 
+	        ItemModelMesher mesher = Minecraft.getMinecraft().getRenderItem().getItemModelMesher();
+	        mesher.register(item, metadata, new ModelResourceLocation("tuto:" + name, "inventory"));
+	    }
+	 
+	 @Override
+	 public void registerItemTexture(Item item, String name) {
+	    	
+		 registerItemTexture(item, 0, name);
+	 }
+	 
+	 @Override
+	 public void registerBlockTexture(Block block, int metadata, String name) {
+	    	
+		 registerItemTexture(Item.getItemFromBlock(block), metadata, name);
+	 }
+}

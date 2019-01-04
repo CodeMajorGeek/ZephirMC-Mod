@@ -1,0 +1,16 @@
+package com.codemajorgeek.zephirmc.items;
+
+import net.minecraft.item.*;
+
+public class ZephirArmor extends ItemArmor {
+	
+	public ZephirArmor(ArmorMaterial material, int type) {
+		
+		super(material, 0, type);
+	}
+	
+	public String getArmorTexture(ItemStack stack, Entity entity, int slot, String type) {
+		
+		
+	}
+}

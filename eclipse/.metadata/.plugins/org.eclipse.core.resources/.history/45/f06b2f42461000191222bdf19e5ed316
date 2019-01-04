@@ -1,0 +1,7 @@
+package com.codemajorgeek.zephirmc.items;
+
+import net.minecraft.item.*;
+
+public class ZephirHelmet extends Item{
+
+}
